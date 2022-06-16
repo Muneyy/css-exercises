@@ -8,9 +8,34 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+
 }
+
+.image-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.first, .second, .third, .fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+  text-justify: auto;
+}
+
 
 /* do not edit this footer */
 .footer {

@@ -1,0 +1,19 @@
+.buttons {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    display:flex;
+    flex-direction: right;
+    padding: 8px;
+    gap: 16px;
+    align-items: center;
+}
+
+.one {
+    background-color: black;
+    color: white;
+    font-family: "Lucida Sans", "Times New Roman", sans-serif;
+}
+
+.two {
+    background-color: yellow;
+}
